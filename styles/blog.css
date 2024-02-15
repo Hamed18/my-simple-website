@@ -11,3 +11,33 @@ img{
 	height:300px;
 	width:500px;
 }
+label{
+	display: block;
+}
+/* Navbar container */
+.navbar {
+	overflow: hidden;
+	background-color: #333; /* Background color of the navbar */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+	float: left;
+	display: inline;
+	color: #fff; /* Text color of the links */
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+	background-color: #ddd; /* Background color of the links on hover
+  }
+  @media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}  
